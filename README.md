@@ -12,14 +12,18 @@ Firstly, install Pytumblr via pip:
 pip install pytumblr  
 ```
 
-Create a `credential` file (no extension), and place your aforementioned keys in the following order:  
+Create a file named `credentials` (no extension), and place your aforementioned keys in the following order:  
 ```
-consumer_key,
-consumer_secret,
-oauth_token,
-oauth_secret,
+consumer_key
+consumer_secret
+oauth_token
+oauth_secret
 ```
-Place the credential file in the same directory as  `blog_followers.py` and run:
+Your credential file should look like the below:
+
+![Credentials file example](https://i.imgur.com/UWnr1KZ.png)
+
+Finally, place the credential file in the same directory as  `blog_followers.py` and run:
 ```python
 python3 blog_followers.py
 ```
